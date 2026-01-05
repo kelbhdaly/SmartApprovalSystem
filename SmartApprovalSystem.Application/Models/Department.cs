@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SmartApprovalSystem.Application.Models
 {
-    internal class Department
+    public class Department
     {
+        public int ID { get; set; }
+        public string DepartmentName { get; set; } = default!;
+
+        // Navigation property
+        public string ManagerUserId { get; set; } = default!;
+
     }
 }

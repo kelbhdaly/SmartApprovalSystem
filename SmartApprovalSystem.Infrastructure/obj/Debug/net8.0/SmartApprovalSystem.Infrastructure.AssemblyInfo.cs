@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartApprovalSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57316d60e7d60c1466f878c8ea7e99e095e73472")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba6e7b5a83896f8bee46f93aed9ef093a644d3d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartApprovalSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartApprovalSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

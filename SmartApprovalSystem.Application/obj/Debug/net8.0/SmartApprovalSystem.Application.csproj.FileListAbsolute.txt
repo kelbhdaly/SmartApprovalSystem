@@ -9,3 +9,4 @@ D:\Projects Api\SmartApprovalSystem\SmartApprovalSystem.Application\obj\Debug\ne
 D:\Projects Api\SmartApprovalSystem\SmartApprovalSystem.Application\obj\Debug\net8.0\refint\SmartApprovalSystem.Application.dll
 D:\Projects Api\SmartApprovalSystem\SmartApprovalSystem.Application\obj\Debug\net8.0\SmartApprovalSystem.Application.pdb
 D:\Projects Api\SmartApprovalSystem\SmartApprovalSystem.Application\obj\Debug\net8.0\ref\SmartApprovalSystem.Application.dll
+D:\Projects Api\SmartApprovalSystem\SmartApprovalSystem.Application\obj\Debug\net8.0\SmartApprovalSystem.Application.sourcelink.json
