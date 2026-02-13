@@ -1,15 +1,61 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7080FDD7-3628-4E03-8A8C-F7422A07221E}|SmartApprovalSystem.API\\SmartApprovalSystem.API.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.api\\smartapprovalsystem.api\\extentions\\dataseedingregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7080FDD7-3628-4E03-8A8C-F7422A07221E}|SmartApprovalSystem.API\\SmartApprovalSystem.API.csproj|solutionrelative:smartapprovalsystem.api\\extentions\\dataseedingregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7080FDD7-3628-4E03-8A8C-F7422A07221E}|SmartApprovalSystem.API\\SmartApprovalSystem.API.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.api\\smartapprovalsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7080FDD7-3628-4E03-8A8C-F7422A07221E}|SmartApprovalSystem.API\\SmartApprovalSystem.API.csproj|solutionrelative:smartapprovalsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9085F37-32B7-4268-8599-A6D93594D3BF}|..\\SmartApprovalSystem.Infrastructure\\SmartApprovalSystem.Infrastructure.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.infrastructure\\data\\seed\\identitydataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242A9D0-80EF-4E9A-B2E4-3F699B54D511}|..\\SmartApprovalSystem.Application\\SmartApprovalSystem.Application.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.application\\interfaces\\idataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7080FDD7-3628-4E03-8A8C-F7422A07221E}|SmartApprovalSystem.API\\SmartApprovalSystem.API.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.api\\smartapprovalsystem.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7080FDD7-3628-4E03-8A8C-F7422A07221E}|SmartApprovalSystem.API\\SmartApprovalSystem.API.csproj|solutionrelative:smartapprovalsystem.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9085F37-32B7-4268-8599-A6D93594D3BF}|..\\SmartApprovalSystem.Infrastructure\\SmartApprovalSystem.Infrastructure.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.infrastructure\\serviceimplementaion\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9085F37-32B7-4268-8599-A6D93594D3BF}|..\\SmartApprovalSystem.Infrastructure\\SmartApprovalSystem.Infrastructure.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.infrastructure\\data\\migerations\\20260213091357_lastupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9085F37-32B7-4268-8599-A6D93594D3BF}|..\\SmartApprovalSystem.Infrastructure\\SmartApprovalSystem.Infrastructure.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.infrastructure\\exceptions\\rolenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9085F37-32B7-4268-8599-A6D93594D3BF}|..\\SmartApprovalSystem.Infrastructure\\SmartApprovalSystem.Infrastructure.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.infrastructure\\exceptions\\emailalreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9085F37-32B7-4268-8599-A6D93594D3BF}|..\\SmartApprovalSystem.Infrastructure\\SmartApprovalSystem.Infrastructure.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.infrastructure\\exceptions\\invalidregisterexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242A9D0-80EF-4E9A-B2E4-3F699B54D511}|..\\SmartApprovalSystem.Application\\SmartApprovalSystem.Application.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9085F37-32B7-4268-8599-A6D93594D3BF}|..\\SmartApprovalSystem.Infrastructure\\SmartApprovalSystem.Infrastructure.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.infrastructure\\data\\dbcontexts\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242A9D0-80EF-4E9A-B2E4-3F699B54D511}|..\\SmartApprovalSystem.Application\\SmartApprovalSystem.Application.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.application\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242A9D0-80EF-4E9A-B2E4-3F699B54D511}|..\\SmartApprovalSystem.Application\\SmartApprovalSystem.Application.csproj|d:\\projects api\\smartapprovalsystem\\smartapprovalsystem.application\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 245,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +68,188 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.API\\SmartApprovalSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "SmartApprovalSystem.API\\Program.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.API\\SmartApprovalSystem.API\\Program.cs",
+              "RelativeToolTip": "SmartApprovalSystem.API\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:04:37.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDataSeeding.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Application\\Interfaces\\IDataSeeding.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Application\\Interfaces\\IDataSeeding.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Application\\Interfaces\\IDataSeeding.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Application\\Interfaces\\IDataSeeding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:52:00.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataSeedingRegister.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.API\\SmartApprovalSystem.API\\Extentions\\DataSeedingRegister.cs",
+              "RelativeDocumentMoniker": "SmartApprovalSystem.API\\Extentions\\DataSeedingRegister.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.API\\SmartApprovalSystem.API\\Extentions\\DataSeedingRegister.cs",
+              "RelativeToolTip": "SmartApprovalSystem.API\\Extentions\\DataSeedingRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:46:28.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.API\\SmartApprovalSystem.API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "SmartApprovalSystem.API\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.API\\SmartApprovalSystem.API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "SmartApprovalSystem.API\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:40:17.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityDataSeeder.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Data\\Seed\\IdentityDataSeeder.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Infrastructure\\Data\\Seed\\IdentityDataSeeder.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Data\\Seed\\IdentityDataSeeder.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Infrastructure\\Data\\Seed\\IdentityDataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:33:12.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\ServiceImplementaion\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Infrastructure\\ServiceImplementaion\\AuthService.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\ServiceImplementaion\\AuthService.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Infrastructure\\ServiceImplementaion\\AuthService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:59:02.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260213091357_LastUpdate.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Data\\Migerations\\20260213091357_LastUpdate.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Infrastructure\\Data\\Migerations\\20260213091357_LastUpdate.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Data\\Migerations\\20260213091357_LastUpdate.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Infrastructure\\Data\\Migerations\\20260213091357_LastUpdate.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:13:58.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvalidRegisterException.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Exceptions\\InvalidRegisterException.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Infrastructure\\Exceptions\\InvalidRegisterException.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Exceptions\\InvalidRegisterException.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Infrastructure\\Exceptions\\InvalidRegisterException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:29:27.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailAlreadyExistsException.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Exceptions\\EmailAlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Infrastructure\\Exceptions\\EmailAlreadyExistsException.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Exceptions\\EmailAlreadyExistsException.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Infrastructure\\Exceptions\\EmailAlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:22:30.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoleNotFoundException.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Exceptions\\RoleNotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Infrastructure\\Exceptions\\RoleNotFoundException.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Exceptions\\RoleNotFoundException.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Infrastructure\\Exceptions\\RoleNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:00:55.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Data\\DbContexts\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Infrastructure\\Data\\DbContexts\\ApplicationUser.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Infrastructure\\Data\\DbContexts\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Infrastructure\\Data\\DbContexts\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:05:38.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:03:24.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Application\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Application\\Models\\UserProfile.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Application\\Models\\UserProfile.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Application\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:53:44.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Request.cs",
+              "DocumentMoniker": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Application\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "..\\SmartApprovalSystem.Application\\Models\\Request.cs",
+              "ToolTip": "D:\\Projects Api\\SmartApprovalSystem\\SmartApprovalSystem.Application\\Models\\Request.cs",
+              "RelativeToolTip": "..\\SmartApprovalSystem.Application\\Models\\Request.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:53:30.472Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -36,12 +264,16 @@
           ]
         },
         {
-          "DockedWidth": 200,
+          "DockedWidth": 155,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SmartApprovalSystem.Application.Enums
 {
-    internal class RequestType
+    public enum RequestType
     {
+        LeaveRequest,       
     }
 }

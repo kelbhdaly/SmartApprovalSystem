@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SmartApprovalSystem.Application.Enums
 {
-    internal class RequestStatus
+    public enum RequestStatus
     {
+        Pending = 1,
+        Approved ,
+        Rejected 
     }
 }
