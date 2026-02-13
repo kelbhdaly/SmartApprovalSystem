@@ -1,12 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SmartApprovalSystem.Application.Interfaces;
 using SmartApprovalSystem.Infrastructure.Data.DbContexts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SmartApprovalSystem.Infrastructure.ServiceImplementaion;
 
 namespace SmartApprovalSystem.Infrastructure.Extentions
 {
@@ -17,6 +15,7 @@ namespace SmartApprovalSystem.Infrastructure.Extentions
 
             services.AddDbContext<ApplicationDbContext>(optiones =>
                 optiones.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IAuthService, AuthService>();
             return services;
         }
     }

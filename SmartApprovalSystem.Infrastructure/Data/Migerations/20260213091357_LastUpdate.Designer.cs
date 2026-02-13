@@ -9,11 +9,11 @@ using SmartApprovalSystem.Infrastructure.Data.DbContexts;
 
 #nullable disable
 
-namespace SmartApprovalSystem.Infrastructure.Migrations
+namespace SmartApprovalSystem.Infrastructure.Data.Migerations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260105104324_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260213091357_LastUpdate")]
+    partial class LastUpdate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -234,26 +234,35 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
 
             modelBuilder.Entity("SmartApprovalSystem.Application.Models.ApprovalStep", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ActionByUserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ActionDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ApproverUserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("RejectionReason")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("RequestId")
                         .HasColumnType("int");
 
-                    b.Property<int>("RequestStatus")
+                    b.Property<int>("Status")
                         .HasColumnType("int");
 
                     b.Property<int>("StepOrder")
                         .HasColumnType("int");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.HasIndex("RequestId");
 
@@ -284,11 +293,11 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
 
             modelBuilder.Entity("SmartApprovalSystem.Application.Models.Request", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -311,7 +320,7 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CreatedByUserId");
 
@@ -320,11 +329,11 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
 
             modelBuilder.Entity("SmartApprovalSystem.Application.Models.UserProfile", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("DepartmentId")
                         .HasColumnType("int");
@@ -337,7 +346,7 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.HasIndex("DepartmentId");
 
@@ -350,6 +359,10 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
             modelBuilder.Entity("SmartApprovalSystem.Infrastructure.Data.DbContexts.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -407,11 +420,13 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
 
             modelBuilder.Entity("SmartApprovalSystem.Application.Models.ApprovalStep", b =>
                 {
-                    b.HasOne("SmartApprovalSystem.Application.Models.Request", null)
-                        .WithMany()
+                    b.HasOne("SmartApprovalSystem.Application.Models.Request", "Request")
+                        .WithMany("ApprovalSteps")
                         .HasForeignKey("RequestId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("Request");
                 });
 
             modelBuilder.Entity("SmartApprovalSystem.Application.Models.Request", b =>
@@ -436,6 +451,11 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
                         .HasForeignKey("SmartApprovalSystem.Application.Models.UserProfile", "UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("SmartApprovalSystem.Application.Models.Request", b =>
+                {
+                    b.Navigation("ApprovalSteps");
                 });
 #pragma warning restore 612, 618
         }

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace SmartApprovalSystem.Infrastructure.Migrations
+namespace SmartApprovalSystem.Infrastructure.Data.Migerations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
@@ -175,10 +175,10 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
                 name: "Requests",
                 columns: table => new
                 {
-                    ID = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Title = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(400)", maxLength: 400, nullable: false),
                     RequestType = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -186,7 +186,7 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Requests", x => x.ID);
+                    table.PrimaryKey("PK_Requests", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Requests_AspNetUsers_CreatedByUserId",
                         column: x => x.CreatedByUserId,
@@ -226,22 +226,25 @@ namespace SmartApprovalSystem.Infrastructure.Migrations
                 name: "ApprovalSteps",
                 columns: table => new
                 {
-                    ID = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     StepOrder = table.Column<int>(type: "int", nullable: false),
                     ApproverUserId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    RequestStatus = table.Column<int>(type: "int", nullable: false),
+                    Status = table.Column<int>(type: "int", nullable: false),
+                    ActionByUserId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ActionDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    RejectionReason = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     RequestId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ApprovalSteps", x => x.ID);
+                    table.PrimaryKey("PK_ApprovalSteps", x => x.Id);
                     table.ForeignKey(
                         name: "FK_ApprovalSteps_Requests_RequestId",
                         column: x => x.RequestId,
                         principalTable: "Requests",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(

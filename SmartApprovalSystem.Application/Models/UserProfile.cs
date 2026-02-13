@@ -9,7 +9,7 @@ namespace SmartApprovalSystem.Application.Models
 {
     public class UserProfile
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string FullName { get; set; } = default!;
 
         // Navigation property 

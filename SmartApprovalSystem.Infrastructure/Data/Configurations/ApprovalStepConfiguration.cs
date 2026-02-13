@@ -8,14 +8,17 @@ namespace SmartApprovalSystem.Infrastructure.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<ApprovalStep> builder)
         {
-           builder.HasOne<Request>()
-                  .WithMany()
-                  .HasForeignKey(approvalStep => approvalStep.RequestId)
-                  .OnDelete(DeleteBehavior.Cascade);
             builder
-                  .Property(x => x.RequestId)
-                  .IsRequired();
+                .HasOne(a => a.Request)
+                .WithMany(r => r.ApprovalSteps)
+                .HasForeignKey(a => a.RequestId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Property(x => x.RequestId)
+                   .IsRequired();
+
             builder.HasIndex(x => x.RequestId);
         }
     }
+
 }

@@ -8,10 +8,8 @@ namespace SmartApprovalSystem.Application.Enums
 {
     public enum RequestStatus
     {
-        Pending,
-
-        Approved,
-
-        Rejected
+        Pending = 1,
+        Approved ,
+        Rejected 
     }
 }
